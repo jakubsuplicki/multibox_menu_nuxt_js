@@ -50,7 +50,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"nuxt-test","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"## Build Setup"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"css\u002Fbase.css"}],"script":[{"src":"\u002Fjs\u002Fimagesloaded.pkgd.min.js","type":"text\u002Fjavascript","body":true,"defer":true},{"src":"\u002Fjs\u002FTweenMax.min.js","type":"text\u002Fjavascript","body":true,"defer":true},{"src":"\u002Fjs\u002Fdemo.js","type":"text\u002Fjavascript","body":true,"defer":true}],"style":[]},
+    head: {"title":"nuxt-test","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"## Build Setup"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"css\u002Fbase.css"}],"script":[{"src":"js\u002Fimagesloaded.pkgd.min.js","type":"text\u002Fjavascript","body":true,"defer":true},{"src":"js\u002FTweenMax.min.js","type":"text\u002Fjavascript","body":true,"defer":true},{"src":"js\u002Fdemo.js","type":"text\u002Fjavascript","body":true,"defer":true}],"style":[]},
 
     router,
     nuxt: {

@@ -26,9 +26,9 @@ export default {
       { rel: 'stylesheet', type: 'text/css', href: 'css/base.css' }
     ],
     script: [
-      { src: '/js/imagesloaded.pkgd.min.js', type: 'text/javascript', body: true, defer: true },
-      { src: '/js/TweenMax.min.js', type: 'text/javascript', body: true, defer: true },
-      { src: '/js/demo.js', type: 'text/javascript', body: true, defer: true }
+      { src: 'js/imagesloaded.pkgd.min.js', type: 'text/javascript', body: true, defer: true },
+      { src: 'js/TweenMax.min.js', type: 'text/javascript', body: true, defer: true },
+      { src: 'js/demo.js', type: 'text/javascript', body: true, defer: true }
     ]
   },
   /*
