@@ -1,4 +1,4 @@
-# nuxt-test
+# Multibox Menu Nuxt.js
 
 ## Build Setup
 
