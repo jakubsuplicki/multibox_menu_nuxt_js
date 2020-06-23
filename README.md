@@ -1,0 +1,1 @@
+# multibox_menu_nuxt_js
