@@ -1,4 +1,4 @@
-# nuxt-test
+# Multibox Menu Nuxt.js
 
 ## Build Setup
 
@@ -18,3 +18,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Project based on:
+
+https://github.com/codrops/MultiboxMenu/
