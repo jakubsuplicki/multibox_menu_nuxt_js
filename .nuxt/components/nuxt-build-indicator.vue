@@ -77,7 +77,7 @@ export default {
         return
       }
       this._connecting = true
-      this.sse = new EventSource('http://localhost:54579/sse')
+      this.sse = new EventSource('http://localhost:57274/sse')
       this.sse.addEventListener('message', event => this.onSseMessage(event))
     },
     onSseMessage (message) {
